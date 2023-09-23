@@ -8,8 +8,8 @@ import CustomButton from "./CustomButton";
 
 const CriteriaSection = () => {
   return (
-    <div className="bg-flareCriteria flex flex-col justify-center self-stretch border-b bg-no-repeat py-14 bg-blend-hard-light">
-      <div className="container relative mx-auto text-center lg:text-left">
+    <div className="relative flex flex-col justify-center self-stretch border-b py-14">
+      <div className="container mx-auto text-center lg:text-left">
         <div className="mt-7 flex flex-col items-center justify-center lg:flex-row">
           <div className="w-full flex-1">
             <img src={CriteriaSectionImg} />
@@ -67,6 +67,11 @@ const CriteriaSection = () => {
         <img src={star} className="absolute left-44 top-44 h-3 w-3" alt="" />
         <img src={star1} className="absolute bottom-8 right-4 h-2 w-2" alt="" />
       </div>
+
+      <div className="absolute inset-0 -left-4 -top-6 -z-50 h-[27.1875rem] w-[25.25rem] bg-flarecriteriaM1 bg-no-repeat bg-blend-hard-light lg:hidden"></div>
+      <div className="absolute -right-12 bottom-24 -z-50 h-[27.875rem] w-[15.75rem] bg-flarecriteriaM2 bg-no-repeat bg-blend-hard-light lg:hidden"></div>
+      <div className="absolute bottom-0 left-0 -z-50 hidden h-[59.25rem] w-[64.8125rem] bg-flarecriteriaS1 bg-no-repeat bg-blend-hard-light lg:block"></div>
+      <div className="absolute inset-0 -right-1/2 bottom-0 -z-50  hidden overflow-hidden bg-flarecriteriaS2 bg-cover bg-no-repeat bg-blend-hard-light lg:block"></div>
     </div>
   );
 };

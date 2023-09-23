@@ -9,7 +9,7 @@ import Rewards from "../assets/Rewards.png";
 
 const RewardSection = () => {
   return (
-    <div className="bg-flareCriteria flex flex-col justify-center self-stretch border-b bg-no-repeat py-14 bg-blend-hard-light">
+    <div className="relative flex flex-col justify-center self-stretch border-b py-14">
       <div className="container relative mx-auto py-14 text-center lg:text-left">
         <div className="mt-7 flex flex-col items-center justify-center gap-10 lg:items-end">
           <div className="mb-10 flex flex-col lg:mr-20">
@@ -41,6 +41,11 @@ const RewardSection = () => {
           alt=""
         />
       </div>
+
+      <div className="bg-flarerewardsM1 absolute inset-0 -left-4 -top-6 -z-50 h-[27.1875rem] w-[25.25rem] bg-no-repeat bg-blend-hard-light lg:hidden"></div>
+      <div className="bg-flarerewardsM2 absolute -right-12 bottom-24 -z-50 h-[27.875rem] w-[15.75rem] bg-no-repeat bg-blend-hard-light lg:hidden"></div>
+      <div className="bg-flarerewardsS1 absolute bottom-0 left-0 -z-50 hidden h-[59.25rem] w-[64.8125rem] bg-no-repeat bg-blend-hard-light lg:block"></div>
+      <div className="bg-flarerewardsS2 absolute inset-0 -right-44 bottom-0 -z-50 hidden overflow-hidden bg-cover bg-no-repeat bg-blend-hard-light lg:block"></div>
     </div>
   );
 };

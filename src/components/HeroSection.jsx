@@ -17,7 +17,7 @@ const HeroSection = () => {
               Igniting a Revolution in HR Innovation
             </p>
             <div className="flex flex-col gap-4">
-              <h1 className="font-clash  mb-2 pt-4 text-3xl font-bold leading-8 md:text-7xl">
+              <h1 className="mb-2  pt-4 font-clash text-3xl font-bold leading-8 md:text-7xl">
                 getlinked Tech <br /> Hackathon{" "}
                 <span className="text-purple">1.0</span>
                 <img src={chain} className="inline-block h-8 w-8" alt="" />
@@ -70,8 +70,9 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="bg-flareLeft absolute inset-0 z-0  bg-left-top bg-no-repeat bg-blend-hard-light"></div>
-      <div className="bg-image2 absolute inset-0 z-0"></div>
+      <div className="absolute inset-0 -z-50 bg-flareheroM  bg-left-top bg-no-repeat bg-blend-hard-light lg:hidden"></div>
+      <div className="absolute inset-0 -top-56 -z-50  hidden h-[52.25rem] w-[67.875rem] bg-flareheroS1 bg-no-repeat bg-blend-hard-light lg:block"></div>
+      <div className="absolute inset-y-0 right-0 -z-50 hidden h-[62.125rem] w-[59.4375rem] bg-flareheroS2 bg-no-repeat bg-blend-hard-light lg:block"></div>
     </div>
   );
 };

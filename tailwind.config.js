@@ -10,14 +10,6 @@ export default {
       fontSize: {
         base2: ["0.8125rem"], //13px
         "3xl": ["2rem"], //32pc
-
-        // xs: ['0.75rem', { lineHeight: 1.4 }], //12px
-        // base: ['1rem', { lineHeight: 1.4 }], //16px
-        // '2xl': ['1.375rem', { lineHeight: 1.4 }], //22px
-        // '3xl': ['1.75rem', { lineHeight: 1.4 }], //28px
-        // '4xl': ['2.375rem', { lineHeight: 1.4 }], //38px
-        // '5xl': ['3.1875rem', { lineHeight: 1.1 }], //51px
-        // '6xl': ['4.1875rem', { lineHeight: 1.4 }], //67px
       },
       colors: {
         navy: "#150E28",
@@ -28,9 +20,21 @@ export default {
       },
       backgroundImage: {
         primary: "linear-gradient(270deg, #903AFF 0%, #FE34B9 100%);",
-        flareLeft: "url('/src/assets/Purple-Lens-Flare-PNG.png')",
-        flareGuildeline: "url('/src/assets/GuildlineFlare.png')",
-        flareCriteria: "url('/src/assets/FlareCriteria.png')",
+        flareheroM: "url('/src/assets/FlareHeroM.png')",
+        flareheroS1: "url('/src/assets/FlareHeroS1.png')",
+        flareheroS2: "url('/src/assets/FlareHeroS2.png')",
+        flarerulesM1: "url('/src/assets/FlareRulesM1.png')",
+        flarerulesM2: "url('/src/assets/FlareRulesM2.png')",
+        flarerulesS1: "url('/src/assets/FlareRulesS1.png')",
+        flarerulesS2: "url('/src/assets/FlareRulesS2.png')",
+        flarecriteriaM1: "url('/src/assets/FlareCriteriaM1.png')",
+        flarecriteriaM2: "url('/src/assets/FlareCriteriaM2.png')",
+        flarecriteriaS1: "url('/src/assets/FlareCriteriaS1.png')",
+        flarecriteriaS2: "url('/src/assets/FlareCriteriaS2.png')",
+        flarerewardsM1: "url('/src/assets/FlareRewardsM1.png')",
+        flarerewardsM2: "url('/src/assets/FlareRewardsM2.png')",
+        flarerewardsS1: "url('/src/assets/FlareRewardsS1.png')",
+        flarerewardsS2: "url('/src/assets/FlareRewardsS2.png')",
       },
       container: {
         sm: "",
